@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password generator</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h4 class="heading">PASSWORD GENERATOR</h4>
+
+        <div class="copy-paste">
+            <input type="text" id="passbox" disabled>
+            <img id="copy-icon" src="copy.svg" height="30px">
+            <p id="copied">Copied</p>
+
+        </div>
+
+        <div class="password-details">
+            <div class="len-range">
+                <div class="length-value">
+                    <p>Password length</p>
+                    <span id="rangeVal"></span>
+                </div>
+                <input type="range" id="range" min="1" max="30" value="7">
+            </div>
+            <div class="checkboxes">
+                <input type="checkbox" id="check1" value="1" name="upper">
+                <label for="check1">Include Uppercase Letters (A-Z)</label><br>
+                <input type="checkbox" id="check2" value="2" name="lower">
+                <label for="check2">Include Lowercase Letters (a-z)</label><br>
+                <input type="checkbox" id="check3" value="3" name="number">
+                <label for="check3">Include Numbers (0-9)</label><br>
+                <input type="checkbox" id="check4" value="4" name="symbol">
+                <label for="check4">Include Symbols (@-*)</label>
+            </div>
+
+            <button>GENERATE PASSWORD</button>
+        </div>
+
+    </div>
+
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
