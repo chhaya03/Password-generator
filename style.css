@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    background-color: rgb(109, 23, 109);
+    color: white;
+    justify-content: center;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 650px;
+
+    margin-top: 5rem;
+}
+
+.heading {
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.copy-paste {
+    margin-top: 20px;
+    height: 3rem;
+    width: 80%;
+    background-color: rgb(36, 4, 36);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+#passbox {
+    color: yellow;
+    background-color: rgb(36, 4, 36);
+    height: 100%;
+    width: 100%;
+    border: none;
+    text-overflow: ellipsis;
+}
+
+.copy-paste #copy-icon {
+    position: relative;
+    cursor: pointer;
+
+}
+
+.copy-paste p {
+    position: absolute;
+    scale: 0;
+    color: white;
+    margin-left: 440px;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+
+.password-details {
+    margin-top: 20px;
+    background-color: rgb(36, 4, 36);
+    box-shadow: 5px 10px 10px 10px rgb(36, 4, 36);
+    height: 70%;
+    width: 80%;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.length-value {
+    display: flex;
+    justify-content: space-between;
+}
+
+.len-range p {
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#rangeVal {
+    color: yellow;
+}
+
+#range {
+    width: 90%;
+    margin-top: 15px;
+}
+
+.checkboxes {
+    width: max-content;
+    margin-top: 20px;
+    font-size: 2rem;
+}
+
+
+
+button {
+    margin-top: 50px;
+    background-color: rgb(166, 32, 190);
+    padding: 12px 10px;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    border-radius: 15px;
+    padding-block: 1rem;
+    width: 100%;
+}
